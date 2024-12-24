@@ -100,11 +100,14 @@ const styles = StyleSheet.create({
     },
     username: {
         fontSize: 12,
-        marginTop: 0
+        marginTop: 0,
+        color: '#dadada'
     },
     time: {
         fontSize: 9,
-        marginTop: 6
+        marginTop: 6,
+        color: '#bababa'
+
     },
     callBtn: {
         width: 42,
