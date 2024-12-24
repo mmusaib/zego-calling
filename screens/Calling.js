@@ -13,7 +13,7 @@ export default function VoiceCallPage(props) {
                 appSign={keyStore.appSign}
                 userID={userID} // userID can be something like a phone number or the user id on your own user system. 
                 userName={userName}
-                callID={id.toString()} // callID can be any unique string. 
+                callID={'rn12563213515'} // callID can be any unique string. 
 
                 config={{
                     // You can also use ONE_ON_ONE_VOICE_CALL_CONFIG/GROUP_VIDEO_CALL_CONFIG/GROUP_VOICE_CALL_CONFIG to make more types of calls.
