@@ -12,7 +12,7 @@ const App = () => {
 
   return(
     <NavigationContainer>
-      <Stack.Navigator initialRouteName='Home'>
+      <Stack.Navigator initialRouteName='Home'screenOptions={{ headerShown: false }}>
         <Stack.Screen name='Home' component={ Main } />
         <Stack.Screen name="Call" component={ VoiceCallPage } />
       </Stack.Navigator>

@@ -14,7 +14,7 @@ export default function VoiceCallPage(props) {
                 config={{
                     // You can also use ONE_ON_ONE_VOICE_CALL_CONFIG/GROUP_VIDEO_CALL_CONFIG/GROUP_VOICE_CALL_CONFIG to make more types of calls.
                     ...ONE_ON_ONE_VIDEO_CALL_CONFIG,
-                    onCallEnd: (callID, reason, duration) => { props.navigation.navigate('HomePage') },
+                    onCallEnd: (callID, reason, duration) => { props.navigation.navigate('Home') },
                 }}
             />
         </View>
